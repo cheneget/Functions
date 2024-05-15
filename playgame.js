@@ -1,5 +1,6 @@
 function playRound(playerChoice) {
     const computerChoice = getComputerChoice();
+    const palyerChoice = getPlayerChoice();
     const outcome = determineWinner(playerChoice, computerChoice);
     displayResult(outcome, playerChoice, computerChoice);
 }
